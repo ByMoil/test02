@@ -1,9 +1,7 @@
 ---
 name: CI for Foodgram
 
-on:
-  push:
-    branches: [ master ]
+on: [push]
 
 jobs:
   copy_files_to_server:
